@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "menyapa",
+      "patterns": ["Halo", "Hai", "Selamat datang", "Apa kabar?"],
+      "responses": ["Halo! Selamat datang di Layanan Kelurahan. Bagaimana kami bisa membantu Anda?", "Hai! Ada yang bisa kami bantu?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Selamat tinggal", "Dadah", "Sampai jumpa", "Terima kasih"],
+      "responses": ["Sampai jumpa! Jangan ragu untuk kembali jika Anda membutuhkan informasi lebih lanjut.", "Terima kasih telah mengunjungi Layanan Kelurahan. Sampai jumpa!"],
+      "context": [""]
+    },
+    {
+      "tag": "layanan",
+      "patterns": ["Layanan kelurahan", "Informasi layanan", "Apa yang bisa saya lakukan di kelurahan ini?"],
+      "responses": ["Di Kelurahan kami, Anda dapat mengakses berbagai layanan seperti pengurusan dokumen, informasi seputar kegiatan komunitas, dan banyak lagi. Untuk informasi lebih lanjut, silakan tanyakan kepada kami."],
+      "context": [""]
+    },
+    {
+      "tag": "pengurusan_dokumen",
+      "patterns": ["Cara mengurus KTP", "Prosedur pembuatan KK", "Syarat Surat Keterangan"],
+      "responses": ["Anda dapat mengurus dokumen seperti KTP, KK, dan Surat Keterangan di kantor kelurahan kami. Silakan kunjungi kantor kami dengan membawa syarat-syarat yang diperlukan."],
+      "context": [""]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Terimakasih", "Saya puas", "Makasih ya"],
+      "responses": ["Terima kasih atas kunjungan Anda! Jika ada pertanyaan lain, jangan ragu untuk bertanya."],
+      "context": [""]
+    },
+    {
+      "tag": "tidaktahumaksud",
+      "patterns": ["Saya tidak tahu maksud Anda", "Tidak mengerti", "Apa yang Anda maksud?"],
+      "responses": ["Maaf, sepertinya ada kesalahpahaman. Bagaimana kami bisa membantu Anda dengan pertanyaan atau permintaan lainnya?"],
+      "context": [""]
+    }
+  ]
+}
